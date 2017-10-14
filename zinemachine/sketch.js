@@ -46,7 +46,7 @@ function unhighlight() {
 
 function gotFile(file) {
   append(images, createImg(file.data));
-  //(images[images.length - 1]).hide();
+  (images[images.length - 1]).hide();
 }
 
 function process() {
